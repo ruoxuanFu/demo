@@ -1,0 +1,88 @@
+<resources>
+    <!-- trans color -->
+    <color name="transparent">#00000000</color>
+    <color name="trans">@android:color/transparent</color>
+    <drawable name="trans_drawable">@android:color/transparent</drawable>
+    <!-- black color -->
+    <color name="color_black">#263546</color>
+    <color name="translucent">#9000</color>
+    <color name="slide_color">#a0000000</color>
+    <color name="form_item_text_color">#1c1c1c</color>
+    <drawable name="popup_pressed_drawable">@color/popup_main_background</drawable>
+    <color name="popup_main_background">#51000000</color>
+    <color name="slide_menu_bg">#282828</color>
+    <color name="slide_colors">#10000000</color>
+    <color name="color_toggle">#666666</color>
+    <!-- white color -->
+    <color name="login_hint_color">#D0D0D0</color>
+    <color name="line">#e6e6e6</color>
+    <color name="string_add">#F9F4F0</color>
+    <color name="unsold_customer_back_color">#FFF5E1</color>
+    <color name="achievement_tip_back_color">#ffefdb</color>
+    <color name="achievement_tip_text_color">#aa6a2a</color>
+    <color name="refresh_view_bg">#f6f6f6</color>
+    <color name="bold_gray">#d1d1d1</color>
+    <color name="color_little_gray">#e0e0e0</color>
+    <color name="color_background">#f2f2f2</color>
+    <color name="color_white">#ffffff</color>
+    <!-- line color -->
+    <color name="color_header_line">#4e5d70</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <!-- gray color -->
+    <color name="color_gray_light">#f9f9f9</color>
+    <color name="color_gray_dark">#f5f5f5</color>
+    <color name="color_gray_radias">#f3f3f3</color>
+    <color name="form_item_tag_text_color">#999999</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="color_gray">#a2a2a2</color>
+    <color name="list_selector_disable">#aaa</color>
+    <color name="account_text_color">#6B6B6B</color>
+    <color name="color_splash_text">#555555</color>
+    <color name="color_title">#444a63</color>
+    <color name="color_gray_bg">#efeff4</color>
+    <!-- blue color -->
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="color_blue">#1DB0F1</color>
+    <color name="color_blue_pressed">#1A9ED8</color>
+    <color name="color_blue_dark">#2dbde4</color>
+    <!-- green color -->
+    <color name="green_300">#42bd41</color>
+    <color name="color_green_dark">#8dd07d</color>
+    <!-- yellow color -->
+    <color name="color_yellow">#fbcc69</color>
+    <!-- orange color -->
+    <color name="color_line_orange">#ff7200</color>
+    <color name="color_orange_light">#fbcfb6</color>
+    <color name="color_orange_dark">#ef7750</color>
+    <color name="guide_sec">#ff6a6c</color>
+    <!-- red color -->
+    <color name="color_red">#f25f5f</color>
+    <!-- checkin bg color -->
+    <color name="color_checkin">#eeeeee</color>
+    <!-- home login window status color -->
+    <color name="color_home_login_system_bar">#333333</color>
+    <!-- login window status color -->
+    <color name="color_login_system_bar">#F2F4EF</color>
+    <color name="name_selector_color">#cccccc</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="win_opportunities_bar">#fccc6a</color>
+    <color name="report_list_title_bg">#eef1f6</color>
+
+    <color name="piechart_text_color">#7E7F80</color>
+    <color name="chart_data_highlight">#fef0d3</color>
+
+    <color name="dashboard_sale_color1">#32404e</color>
+    <color name="dashboard_sale_color2">#8dca35</color>
+    <color name="dashboard_sale_color3">#00bfdd</color>
+    <color name="dashboard_sale_color4">#ff702a</color>
+    <color name="dashboard_sale_color5">#da3610</color>
+    <color name="dashboard_sale_color6">#80cdc2</color>
+    <color name="dashboard_sale_color7">#a6d969</color>
+    <color name="dashboard_sale_color8">#5ba0e7</color>
+
+
+    <color name="chart_color">#FC9853</color>
+    <color name="phone_gray">#b1b1b1</color>
+
+</resources>

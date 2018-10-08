@@ -1,0 +1,42 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Slide menu dimens config. -->
+    <dimen name="slide_menu_offset">100dp</dimen>
+
+    <dimen name="form_item_height_min">48dip</dimen>
+    <dimen name="form_item_text_size">16sp</dimen>
+    <dimen name="form_item_margin_left">12dip</dimen>
+
+    <dimen name="margin_12">12dip</dimen>
+    <dimen name="margin_16">16dip</dimen>
+
+    <dimen name="text_size_30">30sp</dimen>
+
+    <dimen name="new_form_item_height_min">55dp</dimen>
+
+    <dimen name="contract_view_page_margin">55dp</dimen>
+
+    <dimen name="expand_tab_line_margin">12dp</dimen>
+
+    <dimen name="aike_team_summary_margin_bottom">15dp</dimen>
+
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <dimen name="radio_button_stroke_border">1dp</dimen>
+
+    <!-- 日程日历相关控件-->
+    <dimen name="calender_item_height">42dip</dimen>
+    <!-- 日期高度为（36+6）*6 -->
+    <dimen name="calender_height">252dip</dimen>
+    <!-- 日期高度为（36+6）*6 + 58 -->
+    <dimen name="calender_content_height">310dip</dimen>
+    <dimen name="mindistance">10dip</dimen>
+
+    <!--自定义拓展视图基础高度-->
+    <dimen name="exp_base_height">56dp</dimen>
+    <!--自定义拓展视图分组分割线-->
+    <dimen name="exp_group_line">36dp</dimen>
+
+</resources>
