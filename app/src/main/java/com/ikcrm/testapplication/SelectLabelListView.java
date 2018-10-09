@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by furuoxuan on 2018-09-28.
+ * The type Select label list view.
  */
 public class SelectLabelListView extends LinearLayout {
 
@@ -35,6 +35,9 @@ public class SelectLabelListView extends LinearLayout {
     private OnLabelSelectedListener mOnLabelSelectedListener;
     private OnLabelUnSelectedListener mOnLabelUnSelectedListener;
 
+    /**
+     * The interface On label selected listener.
+     */
     public interface OnLabelSelectedListener {
         /**
          * On label selected.
@@ -60,22 +63,50 @@ public class SelectLabelListView extends LinearLayout {
         void onLabelUnSelected(Object tag, int position, LabelBean labelBean);
     }
 
+    /**
+     * Sets on label selected listener.
+     *
+     * @param onLabelSelectedListener the on label selected listener
+     */
     public void setOnLabelSelectedListener(OnLabelSelectedListener onLabelSelectedListener) {
         mOnLabelSelectedListener = onLabelSelectedListener;
     }
 
+    /**
+     * Sets on label un selected listener.
+     *
+     * @param onLabelUnSelectedListener the on label un selected listener
+     */
     public void setOnLabelUnSelectedListener(OnLabelUnSelectedListener onLabelUnSelectedListener) {
         mOnLabelUnSelectedListener = onLabelUnSelectedListener;
     }
 
+    /**
+     * Instantiates a new Select label list view.
+     *
+     * @param context the context
+     */
     public SelectLabelListView(Context context) {
         this(context, null);
     }
 
+    /**
+     * Instantiates a new Select label list view.
+     *
+     * @param context the context
+     * @param attrs   the attrs
+     */
     public SelectLabelListView(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
+    /**
+     * Instantiates a new Select label list view.
+     *
+     * @param context      the context
+     * @param attrs        the attrs
+     * @param defStyleAttr the def style attr
+     */
     public SelectLabelListView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mContext = context;
@@ -85,7 +116,7 @@ public class SelectLabelListView extends LinearLayout {
     }
 
     /**
-     * 设置标签类型名称.
+     * Sets tv label name.
      *
      * @param tvLabelName the tv label name
      */
@@ -94,7 +125,7 @@ public class SelectLabelListView extends LinearLayout {
     }
 
     /**
-     * 设置标签选择模式.
+     * Sets select type.
      *
      * @param selectType the select type
      */
@@ -107,7 +138,7 @@ public class SelectLabelListView extends LinearLayout {
     }
 
     /**
-     * 设置标签数据.
+     * Sets label beans.
      *
      * @param labelBeans      the label beans
      * @param onSelectedColor the on selected color
@@ -122,9 +153,6 @@ public class SelectLabelListView extends LinearLayout {
         }
     }
 
-    /**
-     * 初始化标签
-     */
     private void initLabelList() {
         mTflLabelList.setAdapter(new TagAdapter<LabelBean>(mLabelBeans) {
             @Override
@@ -158,9 +186,9 @@ public class SelectLabelListView extends LinearLayout {
     }
 
     /**
-     * 获取选择过的标签
+     * Gets select labels.
      *
-     * @return String select labels
+     * @return the select labels
      */
     public ArrayList<LabelBean> getSelectLabels() {
         ArrayList<LabelBean> selectLabels = new ArrayList<>();
